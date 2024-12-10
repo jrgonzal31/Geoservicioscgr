@@ -1,4 +1,4 @@
-setwd("C:/Users/jose.gonzalez/Documents/PerezZeledon/Analisis")
+#setwd("C:/Users/jose.gonzalez/Documents/PerezZeledon/Analisis")
 
 source("server.R")
 source("ui.R")
