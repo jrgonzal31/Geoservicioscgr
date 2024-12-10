@@ -1,0 +1,8 @@
+Package: myApp
+Version: 0.1
+Imports: sf, leaflet, leaflet.extras, leaflet.providers, dplyr, readxl, janitor,
+         readr, osmdata, RColorBrewer, htmltools, stringr, ggplot2, purrr, spData,
+         tidyverse, scales, plotly, cluster, fpc, NbClust, clValid, stats,
+         corrplot, factoextra, fmsb, ineq, shiny, shinydashboard, shinythemes,
+         profvis, memoise, future, promises, fresh, redux, shinycssloaders,
+         rmarkdown
