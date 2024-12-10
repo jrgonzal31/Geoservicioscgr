@@ -1,0 +1,123 @@
+/* General UI Styling */
+body, .content-wrapper {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar-menu .menu-item, .sidebar-menu .treeview-menu .menu-item {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.sidebar-menu .menu-item.active, .sidebar-menu .menu-item:hover {
+    background-color: #384A99 !important;
+    color: white !important;
+    border-radius: 5px;
+}
+
+/* Header Styling */
+.main-header .logo {
+    background-color: #384A99;
+}
+
+.main-header .navbar {
+    background-color: #384A99;
+}
+
+.main-header .navbar-custom-menu > .navbar-nav > li > a {
+    color: white;
+}
+
+/* Button Styling */
+.btn-primary, .btn-secondary {
+    background-color: #384A99;
+    border-color: #384A99;
+    font-size: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    background-color: #f39325;
+}
+
+/* Box Styling */
+.box {
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* InfoBox Styling */
+.info-box {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+
+/* Radio Buttons Styling */
+.radio-inline {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #384A99;
+}
+
+.radio-inline input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-inline .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.radio-inline:hover input ~ .checkmark {
+    background-color: #bbb;
+}
+
+.radio-inline input:checked ~ .checkmark {
+    background-color: #384A99;
+}
+
+.radio-inline .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-inline input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radio-inline .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Panel Title Styling */
+.box-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #384A99;
+}
+
+/* Tab content styling */
+.tab-content {
+    padding: 20px;
+}
